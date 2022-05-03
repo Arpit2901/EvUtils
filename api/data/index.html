@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auth Page</title>
+  <link rel="stylesheet" href="../css/auth.css">
+  <link rel="stylesheet" href="../css/global.css">
+  <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
+</head>
+<script type="module" src="auth.js"></script>
+
+<body>
+  <div class="container">
+    <div id="logged-in">
+      <button className="logout" onclick="logout">Logout</button>
+      <!-- <img src={user?.photoURL} className="rounded-md shadow-md" alt="" /> -->
+      <p className="text-2xl font-sans font-semibold ml-2" id="user-displayName">
+        <!-- {user?.displayName} -->
+        <span className="block text-xs font-serif font-normal" id="user-email">
+          <!-- {user?.email} -->
+        </span>
+      </p>
+    </div>
+    <div id="logged-out">
+      <!-- <img src="https://cdn.pixabay.com/photo/2016/06/11/12/13/pink-hair-1450045_960_720.jpg" alt=""
+        className="absolute top-0 left-0 w-screen h-screen object-cover" /> -->
+      <!-- <div className="top-0 left-0 right-0 bottom-0 absolute bg-black opacity-50"></div>
+      <div className="flex justify-center items-center border border-gray-300 p-2 bg-white bg-opacity-60 
+                      rounded-full cursor-pointer hover:shadow-md hover:bg-opacity-100 duration-150 ease-in-out z-10"
+        onClick="{signIn}"> -->
+      <!-- <FcGoogle fontSize="{30}" /> -->
+      <button className="login" id="login" onclick="login">Sign in with Google</>
+        <!-- </div> -->
+    </div>
+  </div>
+</body>
+<!-- <script src="js/auth.js"></script> -->
+<!-- <script type="module" src="js/firebase-config"></script> -->
+
+</html>
