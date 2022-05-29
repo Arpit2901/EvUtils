@@ -10,10 +10,11 @@ body{
 
 .wheel{
     left: 50%;
-    bottom: 178px;
+    bottom: 10%;
     transform: translateX(-50%);
     position: absolute;
     z-index: 2;
+
 }
 .wheel img{
     height: 47px;
