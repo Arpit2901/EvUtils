@@ -1,6 +1,6 @@
 To Check This Project Click On The Given Link
 
-https://arpit2901.github.io/EV-ecosystem/index1.html
+https://ev-utils-project.netlify.app/
 
 If Wheels are not in order then make your chrome in Full Screen Mode(F11 0r fn+F11)
 
